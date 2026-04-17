@@ -1,5 +1,8 @@
-﻿[phases.build]
-cmds = ["echo 'Static site - no build needed'"]
+﻿[phases.setup]
+nixPkgs = ["nodejs"]
+
+[phases.install]
+cmds = ["npm install"]
 
 [start]
-cmd = "npx serve . -p 8080"
+cmd = "npm start"
