@@ -1,10 +1,8 @@
-@"
-{
+﻿{
   "build": {
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "npx serve ."
+    "startCommand": "npx serve . -p 8080"
   }
 }
-"@ | Out-File -FilePath railway.json -Encoding utf8
