@@ -1,0 +1,32 @@
+﻿# Firebase config (sensitive)
+firebase-config.js
+
+# Backup & utility files
+*.bak
+*.bak2
+bad-covers.json
+_bad-covers.json
+clean-books.js
+dedupe-books.js
+add-covers.js
+retry-covers.js
+fetch-covers.js
+fetch-audio-covers.js
+generate-audiobooks.js
+generate-audiobooks.gs
+generate-books.gs
+
+# Claude AI folder
+.claude
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Node (if any)
+node_modules/
+npm-debug.log
