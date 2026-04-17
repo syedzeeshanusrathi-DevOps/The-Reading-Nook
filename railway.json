@@ -1,8 +1,6 @@
 ﻿{
-  "build": {
-    "builder": "NIXPACKS"
-  },
   "deploy": {
-    "startCommand": "npx serve . -p 8080"
+    "startCommand": "npx serve . -p 8080",
+    "healthcheckPath": "/"
   }
 }
